@@ -13,7 +13,7 @@ const Character = ({ character }: Props) => {
 
   // if (isLoading) <ActivityIndicator size="large" />
   return (
-    <View style={[tw`flex flex-row w-full bg-[#3b3e43] rounded my-2`]}>
+    <View style={[tw`flex flex-row w-full bg-[#3b3e43] rounded m-2`]}>
       {/* character image */}
       <Image source={{ uri: character.image }} style={[tw`w-[40%] h-50`]} />
 
